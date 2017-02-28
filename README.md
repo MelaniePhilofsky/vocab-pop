@@ -13,6 +13,7 @@
   - use cases:
     - define a cohort or phenotype (needed by ATLAS users):
       - translate existing phenotype definition (e.g., set of ICD-9 codes for some condition) from a source vocabulary into a target vocabulary
+      - Show the difference in concepts and concept definitions between a query written with source concepts and target concepts. As this may cause mapping to a higher level of granularity and the inclusion of concepts that weren’t intended. The unintended concepts should be brought forward.
     - explore the whole set of OHDSI vocabularies:
       - needed in Athena
       - to improve and debug the vocabularies
@@ -28,7 +29,7 @@
     - find a concept:
       - have immediate feedback on CDM records with concept
       - see relationships to other concepts and be encouraged to assure one has chosen correctly
-    - explore my popupaltion:
+    - explore my population:
       - overall
       - in terms of some domain
       - defining a subpopulation (same as 1)
